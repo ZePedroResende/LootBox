@@ -1,8 +1,9 @@
 @charset "utf-8";
 
+@import "bootstrap";
 @import "normalize.css/normalize";
 
 @import "bourbon";
-@import "neat";
-
 @import "base/base";
+@import "neat";
+@import "devise";

@@ -23,6 +23,8 @@ gem "title"
 gem "tzinfo-data", platforms: [:mingw, :x64_mingw, :mswin, :jruby]
 gem "uglifier"
 gem "bootsnap", require: false
+gem "cancancan"
+gem "devise"
 
 
 group :development do
@@ -64,3 +66,5 @@ gem 'bullet', group: [:development, :test]
 gem 'factory_bot_rails', group: [:development, :test]
 gem 'delayed_job_active_record'
 gem 'rack-timeout', group: :production
+gem 'slim'
+gem 'bootstrap'
